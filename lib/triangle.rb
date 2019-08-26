@@ -34,7 +34,9 @@ class Triangle
     raise TriangleError 
    end 
   end 
+  
+  class TriangleError < StadardError 
+  end 
 end
 
-class TriangleError < StandardError 
-end 
+
